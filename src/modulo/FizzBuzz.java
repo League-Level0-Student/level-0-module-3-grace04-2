@@ -26,6 +26,41 @@ package modulo;
 **/
 
 public class FizzBuzz {
-
+	public static void main(String[] args) {
+		int a=0;
+		for(int i=0; i<20; i++) {
+			a++;
+			if(a==3) {
+				System.out.println("fizz");
+			}
+			else if(a==6) {
+				System.out.println("fizz");
+			}
+			else if(a==9) {
+				System.out.println("fizz");
+			}
+			else if(a==12) {
+				System.out.println("fizz");
+			}
+			else if(a==18) {
+				System.out.println("fizz");
+			}
+			else if(a==5) {
+				System.out.println("buzz");
+			}
+			else if(a==10) {
+				System.out.println("buzz");
+			}
+			else if(a==20) {
+				System.out.println("buzz");
+			}
+			else if(a==15) {
+				System.out.println("fizzbuzz");
+			}
+			else {
+				System.out.println(a);
+			}
+		}
+	}
 }
 
